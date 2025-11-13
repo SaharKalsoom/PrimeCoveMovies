@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movie Categories</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+  <script src="./bootstrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="categories.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/Movie_website_logo-removebg-preview.png" alt="PrimeCove Logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-3" type="search" placeholder="Search Movies...">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  
+  <div class="container">
+    <h1 class="category-name">Categories of Movies</h1>
+
+    <div class="row justify-content-center g-5">
+      <div class="col-md-3 movie-card">
+        <img src="images/lolly wood pic.jpg">
+        <a href="./lollywood.html" style="color: red;">
+        <h5>Lollywood Movies</h5>
+        </a>
+      </div>
+
+      <div class="col-md-3 movie-card">
+        <img src="images/bollywood pic.jpg">
+        <a href="./bollywood.html" style="color: red;">
+        <h5>Bollywood Movies</h5>
+        </a>
+      </div>
+
+      <div class="col-md-3 movie-card">
+        <img src="images/lolly wood picture.jpg">
+          <a href="./hollywood.html" style="color: red;">
+        <h5>Hollywood Movies</h5>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

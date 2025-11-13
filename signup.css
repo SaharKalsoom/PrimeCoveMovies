@@ -1,0 +1,51 @@
+/* Page layout */
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.signup-card {
+  background-color: rgb(190, 40, 40);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(10, 10, 241);
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form fields */
+.form-control {
+  border-radius: 8px;
+}
+
+/* Labels */
+.form-label {
+  color: black;
+}
+
+/* Sign-up button */
+.btn-signup {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 120px;
+}
+
+.btn-signup:hover {
+  background-color: rgb(10, 10, 241);
+  color: aliceblue;
+ 
+}
+
+/* “OR” text */
+.centeralized {
+  margin: 9px;
+  font: size 20px;
+  font-weight: bold;
+  color: black;
+}

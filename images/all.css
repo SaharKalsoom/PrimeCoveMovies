@@ -1,0 +1,104 @@
+
+.login-card {
+      background-color:white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      padding: 30px 40px;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+    .form-control {
+      border-radius: 8px;
+    }
+    .btn {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .divider {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    body {
+      background-color:black;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+     .heading-color{
+            color:rgb(190, 40, 40)
+        }
+          .label-color{
+                color:rgb(190, 40, 40)
+            }
+            .form-color{
+        color:rgb(190, 40, 40)
+    }
+     .background-color {
+    background-color: rgb(190, 40, 40);
+    border: none;
+    float:right;
+  }
+
+  .background-color:hover {
+    background-color:  rgb(190, 40, 40);
+  }
+  .divider{
+            color:  rgb(190, 40, 40);
+            font-size: 20px;
+            text-align: center;
+            margin: -8px;
+        }
+.signup-btn{
+            color:white;
+            text-align: right;
+            background-color:  rgb(190, 40, 40);
+            font-size:13px
+        }
+        .form-color{
+        color: rgb(190, 40, 40);
+        }
+        .align-centered{
+          text-align-last: center;
+        }
+
+    .body {
+      background-color: black;
+      border-radius: 15px;
+      box-shadow: 0 0 10px red;
+      padding: 30px 40px;
+      width: 100%;
+      max-width: 400px;
+    }
+    .signup-card {
+      background-color: rgb(190, 40, 40);
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgb(10, 10, 241);
+      padding: 30px 40px;
+      width: 100%;
+      max-width: 400px;
+    }
+    .form-control {
+      border-radius: 8px;
+    }
+    .btn-signup {
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      width: 120px;
+    }
+    .btn-signup:hover {
+      background-color: rgb(10, 10, 241);
+    }
+    .centeralized{
+      margin: 9px;
+      font: size 20px;
+      font-weight: bold;
+      color:black;
+    }
+    .form-label{
+      color:black;
+    }
+
