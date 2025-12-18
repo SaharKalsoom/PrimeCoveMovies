@@ -23,7 +23,7 @@ body {
       background-color: black;
       color: white;
     }
-    .heading {
+        .heading {
       background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('Movie_website_logo-removebg-preview.png') center/cover no-repeat;
       height: 75vh;
       display: flex;
@@ -63,14 +63,15 @@ body {
       border-radius: 10px;
       overflow: hidden;
       transition: transform 0.3s ease;
+      height: 650px;
     }
 
     .movie-card:hover {
       transform: scale(1.05);
     }
     .movie-card img {
-      width: 90%;
-      object-fit: cover;
+      width: 100%;
+      height: 500px;
     }
 
     .movie-card h5 {
@@ -85,7 +86,7 @@ body {
       padding: 20px 0;
       margin-top: 50px;
     }
-    .rating5{
+    /*.rating5{
         width: 5px;
         height: 5px;
     }
@@ -96,4 +97,17 @@ body {
     .rating3{
      width: 5px;
      height: 5px;
+}*/
+
+.rating-star{
+width: 120px;
+height: auto;
+display: block;
+margin: 10px auto 0 auto;
+object-fit: contain;
+}
+
+.movie-card img.rating-star{
+width: 120px;
+height: auto;
 }
